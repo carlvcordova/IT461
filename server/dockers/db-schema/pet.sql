@@ -12,6 +12,6 @@ CREATE TABLE dogs(
 CREATE TABLE cats(
     id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(200) NOT NULL,
-    PRIMARY KEY (id),
-    INDEX (name)
+    PRIMARY KEY(id),
+    INDEX(name)
 );
