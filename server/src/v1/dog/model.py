@@ -84,4 +84,4 @@ class DogModel():
         queries.append({"sql": sql, "bind": dogs})
         db = Db.get_instance()
         counter = db.transactional(queries)
-        return 
+        return counter

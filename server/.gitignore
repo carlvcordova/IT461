@@ -1,1 +1,6 @@
+# paths
 __pycache__
+dockers/mysql-data/*
+
+# files
+*.pyc
